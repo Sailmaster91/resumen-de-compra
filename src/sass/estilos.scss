@@ -18,10 +18,11 @@ body{
     min-height: 100vh;
     place-items: center;
 
-    // background-color: $Very-pale-blue;
+    background-color: $color-fondo;
     background-image: url(./../../images/pattern-background-mobile.svg);
     background-repeat: no-repeat;
     background-position: top center;
+    background-size: cover;
     font-size: 16px;
 
 }
@@ -156,7 +157,7 @@ body{
         background-image: url(./../../images/pattern-background-desktop.svg);
         background-position: top center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size:contain;
         font-size: 32px;
     }
     .contenedor{
