@@ -203,4 +203,21 @@ body{
 .btn{
     width: 80%!important;
 
-}}
+}
+.attribution{
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    color: $Desaturated-blue;
+    position: absolute;
+
+    bottom: 20px;
+    a{
+        color: $color-primario;
+        font-weight: 700;
+        &:hover{
+            text-decoration: underline;
+            color: #766cf1;
+        }
+    }
+}
+}
